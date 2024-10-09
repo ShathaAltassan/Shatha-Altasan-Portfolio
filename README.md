@@ -1,4 +1,3 @@
-Here’s the playful README for easy copy and paste:
 
 ---
 
