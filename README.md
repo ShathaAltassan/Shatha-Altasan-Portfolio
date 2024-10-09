@@ -27,14 +27,14 @@ Hey there! 👋 This is the place where I show off all the cool stuff I’ve bee
 - **Typed.js**: Watch my text type itself like it’s alive. 👻
 - **SweetAlert & EmailJS**: Fun little alerts and email sending powers. Who needs owls when you’ve got EmailJS? 🦉
 
-## 🎮 How to Get Started:
+## 🎮 Demo:
 
-1. Clone this bad boy:
-   ```
-   git clone https://github.com/ShathaAltassan/portfolio
-   ```
+https://github.com/user-attachments/assets/72dca6b1-80ab-42f7-8177-1ce2c6dfcbae
 
-2. Open up `index.html` and boom 💥—you’ve got the portfolio right in front of your eyes.
+
+## 🚀 View my Portfoilo!
+https://shatha-portfoilo.netlify.app/
+
 
 ## 📬 Let’s Connect!
 
