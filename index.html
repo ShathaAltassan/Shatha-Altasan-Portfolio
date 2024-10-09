@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Shatha Altasan - Computer Science</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+   <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("{{YOUR USER KEY}}");
+    })();
+  </script>
+
+</head>
+
+<body>
+  
+  <nav class="navbar">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div> 
+    <div class="max-width">
+      <div class="logo">
+        <a href="#">
+          <img src="/images/LOGO00.png" alt="Logo" class="logo-image">
+        </a>
+      </div>
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Services</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="material-icons">menu</i>
+      </div>
+    </div>
+  </nav>
+
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const menu = document.querySelector('.menu');
+
+  menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('active'); // Toggle 'active' class to show/hide the menu
+  });
+</script>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-container">
+            <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+            <div class="text-2">Shatha Altasan</div>
+            <div class="text-3">I'm a <span class="typing"></span></div>
+    
+            <div class="icons" data-aos="fade-up">
+              <a href="https://www.linkedin.com/in/shatha-altassan/" target="_blank">
+                <img src="images/linkedin icon.png" alt="LinkedIn" style="width:40px;height:40px;">
+              </a>
+              <a href="mailto:shatha.altassan@outlook.com">
+                <img src="images/email icon.png" alt="Email" style="width:40px;height:40px;">
+              </a>
+              <a href="tel:+966505191283">
+                <img src="images/phone icon.png" alt="Phone" style="width:40px;height:40px;">
+              </a>
+              <a href="https://github.com/shathaaltassan" target="_blank">
+                <img src="images/github icon.png" alt="GitHub" style="width:40px;height:40px;">
+              </a>
+            </div>
+            <!-- Icons Section End -->
+          </div>
+          <div class="image-container" data-aos="fade-right">
+            <img src="images/hi.png" alt="Hi Image">
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="images/about.png" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            Fresh Computer Science Gradute with a strong academic background and hands-on experience in full-stack web development, UI/UX design, artificial intelligence, machine learning, and programming languages including Python, Java, C++, C, and C#. Eager to apply technical skills in an entry-level position and contribute to dynamic projects, with proven leadership, communication, and problem-solving abilities.
+          </p>
+          <a href="https://drive.google.com/drive/folders/1-CoSev9pBAnSc1W-nEqfbD7AAq5TWX2_?usp=drive_link" target="_blank">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Services Section -->
+
+<section class="services" id="services">
+  
+    <div class="imagecontainer">
+      <img src="images/lab.png" alt="Hi Image">
+    </div>
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Projects</h2>
+
+      
+    <div class="serv-content">
+
+     <!-- Graduation Project -->
+<div class="card" data-aos="flip-left">
+  <div class="box">
+    <img src="images/P1.png" alt="Face Detection & Recognition System" class="project-image">
+    <div class="text">Face Detection & Recognition System</div>
+    <p>
+      Developed a Python-based system using InceptionResNetV1 for Facial Recognition and MTCNN for Face Detection to count and identify known and unknown individuals in real-time video streams. Implemented real-time database connectivity for updating and querying face recognition results.
+    </p>
+    <div class="links">
+      <a href="https://github.com/ShathaAltassan/FDR-SYSTEM-" target="_blank">
+        <img src="images/github.png" alt="GitHub" style="width:40px;height:40px;">
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Pong Game Project -->
+<div class="card" data-aos="flip-left">
+  <div class="box">
+    <img src="images/P2.png" alt="Pong Game Project" class="project-image">
+    <div class="text">Pong Game Project</div>
+    <p>
+      Created a Pong game in C# with Windows Forms, featuring paddle and ball movement, collision detection, scoring, and optimized for smooth gameplay. This project was part of a visual programming course.
+    </p>
+    <div class="links">
+
+      <a href="https://github.com/ShathaAltassan/PongGame" target="_blank">
+        <img src="images/github.png" alt="GitHub" style="width:40px;height:40px;">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="images/skill.png" alt="" />
+        </div>
+        <div class="column left">
+          <div class="text">
+            My creative skills & experiences.
+          </div>
+          <p class="paragraph-2">
+              I’m a passionate developer with a strong foundation in <b>software development</b>, 
+              <b>web development</b>, and <b>artificial intelligence</b>. My technical expertise includes 
+              <b>programming</b>, <b>hardware design</b>, <b>database management</b>, and <b>UI/UX design</b>, 
+              with hands-on experience in <b>machine learning</b> and <b>computer networking</b>.
+            <br>
+            <br>
+              In addition to my technical skills, I’m highly adaptable and excel in <b>communication</b>, 
+              <b>creative problem-solving</b>, and <b>teamwork</b>. I take pride in my <b>leadership</b>, 
+              <b>attention to detail</b>, and <b>time management</b>, all while maintaining a focus on 
+              delivering user-centric solutions.
+            </p>
+        </div>
+        <!--
+        <div class="column right skill-box">
+          
+          <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-flutter.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+      </div>
+      -->
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="images/cont.png" alt="" />
+        </div>
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">I’m always excited to connect and explore new opportunities! Whether you have a project in mind, a question about my work, or if you’re interested in discussing potential job opportunities, please don’t hesitate to reach out. Let’s collaborate and create something amazing together!
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head"></div>
+                <div class="sub-title" style="font-size: 19px;">Shatha Abdullah Altasan</div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head"></div>
+                <div class="sub-title" style="font-size: 19px;">Saudi Arabia - Al-Qassim </div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head"></div>
+                <div class="sub-title">
+                  <a href="mailto:shatha.altassan@outlook.com" style="font-size: 19px;">shatha.altassan@outlook.com</a> 
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <i class="fas fa-phone"></i>
+              <div class="info">
+                <div class="head"></div>
+                <div class="sub-title">
+                  <a href="tel:+966505191283" style="font-size: 19px;">+966505191283</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <i class="fab fa-linkedin"></i>
+              <div class="info">
+                <div class="head"></div>
+                <div class="sub-title">
+                  <a href="https://www.linkedin.com/in/shatha-altassan/" target="_blank" style="font-size: 19px; ">LinkedIn-Shatha-Altasan</a><br>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center" >
+      <span style="font-size: 12px;">
+        Created By <a href="#">Shatha Altasan</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div>
+
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+            <img src="images/linkedin icon.png" alt="LinkedIn" style="width:40px;height:40px;">
+        </a>
+        
+          <a href="https://github.com/your-profile" target="_blank">
+            <img src="images/github icon.png" alt="GitHub" style="width:40px;height:40px;">
+        </a>
+        
+        <a href="mailto:your.email@example.com">
+          <img src="images/email icon.png" alt="Email" style="width:40px;height:40px;">
+      </a>
+
+      <a href="tel:+1234567890">
+        <img src="images/phone icon.png" alt="Phone" style="width:40px;height:40px;">
+    </a>
+    
+        </div>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
