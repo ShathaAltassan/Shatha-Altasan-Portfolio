@@ -21,10 +21,10 @@ Hey there! 👋 This is the place where I show off all the cool stuff I’ve bee
 
 ## 🛠️ Built With:
 
-- **HTML5, CSS3, JavaScript**: The building blocks that make everything look awesome. 🎨
+- **HTML, CSS, JavaScript**: The building blocks that make everything look awesome. 🎨
 - **AOS (Animate on Scroll)**: Because who doesn’t love a fancy scroll effect? ✨
 - **jQuery**: I make the web dynamic and fun, like magic but with more semicolons. 🧙‍♂️
-- **Typed.js**: Watch my text type itself like it’s alive. (I swear, it’s not haunted!) 👻
+- **Typed.js**: Watch my text type itself like it’s alive. 👻
 - **SweetAlert & EmailJS**: Fun little alerts and email sending powers. Who needs owls when you’ve got EmailJS? 🦉
 
 ## 🎮 How to Get Started:
@@ -38,13 +38,13 @@ Hey there! 👋 This is the place where I show off all the cool stuff I’ve bee
 
 ## 📬 Let’s Connect!
 
-- **Email**: [shatha.altassan@outlook.com](mailto:shatha.altassan@outlook.com) - Feel free to spam me... but don’t, okay? 😅
+- **Email**: [shatha.altassan@outlook.com](mailto:shatha.altassan@outlook.com) - Feel free ✨
 - **LinkedIn**: [Shatha Altasan](https://www.linkedin.com/in/shatha-altassan/) - Let’s connect and take over the world (or at least the tech world)! 🌍
-- **GitHub**: [ShathaAltassan](https://github.com/ShathaAltassan) - Come check out my code. It’s cleaner than my room. 😎
+- **GitHub**: [ShathaAltassan](https://github.com/ShathaAltassan) - Come check out my code.😎
 
 ---
 
-Hope you enjoy your stay here! 🚀 Let me know if you’d like to team up on something awesome! 😄
+Hope you enjoy your stay here! 🚀
 
 ---
-e!
+
