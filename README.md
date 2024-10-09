@@ -29,10 +29,10 @@ Hey there! 👋 This is the place where I show off all the cool stuff I’ve bee
 
 ## 🎮 Demo:
 
-https://github.com/user-attachments/assets/72dca6b1-80ab-42f7-8177-1ce2c6dfcbae
-
+https://github.com/user-attachments/assets/baaf6acc-2042-47b3-adea-e0ba241d66b6
 
 ## 🚀 View my Portfoilo!
+
 https://shatha-portfoilo.netlify.app/
 
 
