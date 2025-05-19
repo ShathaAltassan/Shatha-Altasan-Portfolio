@@ -35,7 +35,6 @@ https://github.com/user-attachments/assets/baaf6acc-2042-47b3-adea-e0ba241d66b6
 
 https://shatha-portfoilo.netlify.app/
 
-
 ## 📬 Let’s Connect!
 
 - **Email**: [shatha.altassan@outlook.com](mailto:shatha.altassan@outlook.com) - Feel free ✨
